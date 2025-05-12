@@ -1,8 +1,9 @@
 name: Test Python App
 
 on:
-  push:
-    branches: ['dev']
+  workflow_dispatch:
+    push:
+      branches: ['dev']
 
 jobs:
   ci:
