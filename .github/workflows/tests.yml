@@ -3,7 +3,6 @@ name: Test Python App
 on:
   workflow_dispatch:
     push:
-      branches: ['dev']
 
 jobs:
   ci:
