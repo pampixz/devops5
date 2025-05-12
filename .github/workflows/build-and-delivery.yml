@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/my-app:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/devops-lab5:latest
